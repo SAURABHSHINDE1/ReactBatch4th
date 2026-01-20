@@ -1,11 +1,11 @@
-import Crad from "./components/card"
+import Loops from "./components/Loops"
+
 
 function App(){
 
   return <>
 
-  <Crad/>
-
+  <Loops/>
 
   </>
 
