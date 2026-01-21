@@ -1,12 +1,16 @@
-import Loops from "./components/Loops"
-
+import Data from './components/props/data'
 
 function App(){
 
+
+  const name = "Ishwari"
+
+  const address = "Loni"
+
   return <>
 
-  <Loops/>
-
+  <Data name={name} address={address}/>
+  
   </>
 
 }
