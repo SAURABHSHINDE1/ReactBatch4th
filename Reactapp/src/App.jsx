@@ -1,17 +1,18 @@
-import Data from './components/props/data'
+import State from './hooks/UseState/State.jsx'
+import Home from './Test.jsx'
 
 function App(){
 
+  return (
 
-  const name = "Ishwari"
+ <>
 
-  const address = "Loni"
-
-  return <>
-
-  <Data name={name} address={address}/>
-  
-  </>
+ 
+ <State/>
+ 
+ </>
+    
+  )
 
 }
 
