@@ -1,0 +1,29 @@
+.toggleButton{
+    height: 150px;
+    width: 350px;
+    background-color: grey;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding-left: 8px;
+}
+
+.switch{
+    height:140px;
+    width:140px;
+    background-color: teal;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:all 0.3s linear;
+}
+
+.on{
+    transform: translateX(195px);
+}
+
+.off{
+    transform: translateX(0);
+}
