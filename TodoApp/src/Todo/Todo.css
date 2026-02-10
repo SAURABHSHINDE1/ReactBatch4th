@@ -1,0 +1,38 @@
+.container{
+    height: 200px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container input{
+    height: 40px;
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container input:focus{
+    outline: none;
+}
+
+.container button{
+    padding: 11px 30px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(244, 170, 31);
+    color: #fff;
+}
+
+.todo-Container{
+    height: fit-content;
+    padding: 100px 0px;
+    width: 700px;
+    background-color: orange;
+}

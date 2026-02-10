@@ -1,29 +1,31 @@
 .toggleButton{
-    height: 150px;
-    width: 350px;
-    background-color: grey;
-    border-radius: 100px;
-    display: flex;
-    align-items: center;
-    justify-content:flex-start;
-    padding-left: 8px;
+   height: 160px;
+   width: 350px;
+   background-color: gray;
+   display:flex;
+   align-items: center;
+   justify-content:flex-start;
+   border-radius: 80px;
+   padding-left: 8px;
 }
 
 .switch{
-    height:140px;
-    width:140px;
+    height: 150px;
+    width: 150px;
     background-color: teal;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition:all 0.3s linear;
+    color: #fff;
+    transition: all 0.3s linear;
 }
 
 .on{
-    transform: translateX(195px);
+    transform: translateX(186px);
+    background-color: rgb(106, 208, 4);
 }
 
-.off{
-    transform: translateX(0);
+.bg{
+    background-color: rgb(119, 188, 14);
 }

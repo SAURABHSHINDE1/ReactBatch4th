@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import './togglebutton.css'
 
@@ -5,22 +6,21 @@ const ToggleButton = () => {
 
     const [ison , setIson] = useState(false)
 
-    console.log(ison)
+   
 
     return ( <>
 
 
-            <div className="toggleButton" onClick={()=>{setIson(!ison)}}>
+        <div className={`toggleButton ${ ison ? "bg" : ""}`} onClick={()=>setIson(!ison)}>
 
-                <div className={`switch ${ison ? "on" : "off"}`}>
+            <div className={`switch ${ison ? "on" :""}`}>
 
+                <h1>{ison ? "ON" : "OFF"}</h1>
 
-                    <h1>{ison ? "ON" : "OFF" }</h1>
-
-
-                </div>
             </div>
 
+        </div>
+          
     
     </> );
 }
