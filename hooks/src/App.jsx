@@ -1,9 +1,16 @@
-import State from "./components/useStateHook/state";
+import FetchData from "./components/useEffectHook/fetchData";
+import Refs from "./components/useRef/useRef";
 
 const App = () => {
 
   return ( <>
-  <State/>
+  {/* <State/> */}
+
+  {/* <GetData/> */}
+
+  {/* <FetchData/> */}
+
+  <Refs/>
   </> );
 }
  
