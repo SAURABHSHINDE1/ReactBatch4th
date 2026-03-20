@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#root{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    height: 90%;
+    width: 80%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-div{
+    height: 70%;
+    width: 80%;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subinner{
+    height: 70%;
+    width: 80%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
